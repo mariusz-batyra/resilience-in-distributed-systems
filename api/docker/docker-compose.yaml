@@ -1,0 +1,21 @@
+version: "2"
+services:
+  graphite:
+    image: hopsoft/graphite-statsd
+    ports:
+      - "2003-2004:2003-2004"
+      - "2023-2024:2023-2024"
+      - "8125:8125/udp"
+      - "8126:8126"
+      - "80:80"
+      - "81:81"
+#  prometheus:
+#    image: prom/prometheus
+#    ports:
+#      - "9090:9090"
+#    volumes:
+#      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+#  grafana:
+#    image: grafana/grafana
+#    ports:
+#      - "3000:3000"

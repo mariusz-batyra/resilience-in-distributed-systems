@@ -1,0 +1,8 @@
+### demo2 - get invoices for user
+GET http://localhost:8081/demo2/invoices/2
+
+### demo3 - get invoices for user
+GET http://localhost:8081/demo3/invoices/2
+
+### demo4 - get invoices for user
+GET http://localhost:8081/demo4/invoices/2
