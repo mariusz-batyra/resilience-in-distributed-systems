@@ -39,6 +39,7 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.9.RELEASE")
 
     runtimeOnly("io.micrometer:micrometer-registry-graphite")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("com.github.tomakehurst:wiremock:2.27.2")
 }

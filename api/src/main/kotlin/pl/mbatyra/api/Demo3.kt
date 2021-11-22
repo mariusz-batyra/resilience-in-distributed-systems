@@ -29,7 +29,6 @@ import java.net.http.HttpResponse.ResponseInfo
 import java.nio.charset.StandardCharsets
 import java.util.concurrent.CompletableFuture
 
-
 @RestController
 @RequestMapping(value = ["/demo3"], produces = [MediaType.APPLICATION_JSON_VALUE])
 class Demo3Endpoint(

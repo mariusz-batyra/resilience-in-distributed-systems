@@ -29,7 +29,3 @@ GET http://localhost:8080/demo3/users/2/Retrofit
 
 ### demo 3 - get user by id using Feign
 GET http://localhost:8080/demo3/users/2/Feign
-
-
-### demo 4 - get user by id using Feign
-GET http://localhost:8080/demo4/users/2

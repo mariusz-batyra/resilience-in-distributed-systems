@@ -29,16 +29,4 @@ class InvoiceEndpoint {
             ResponseEntity.ok(UserInvoicesDto(it))
         } ?: ResponseEntity.notFound().build()
     }
-
-    @GetMapping("/demo4/invoices/{userId}")
-    fun getUserInvoicesDemo4(@PathVariable userId: String): ResponseEntity<UserInvoicesDto> {
-        logger.info("Rest request to get user $userId invoices")
-        // val timeout = Random().nextInt(600)
-        val timeout = 1000L
-        logger.info("applied timeout: $timeout ms")
-        Thread.sleep(timeout.toLong())
-        return INVOICES[userId]?.let {
-            ResponseEntity.ok(UserInvoicesDto(it))
-        } ?: ResponseEntity.notFound().build()
-    }
 }

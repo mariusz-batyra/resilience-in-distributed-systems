@@ -8,7 +8,4 @@ import org.springframework.web.bind.annotation.PathVariable
 interface ExternalServiceFeignClient {
     @GetMapping("/demo3/invoices/{userId}")
     fun getUserInvoicesDemo3(@PathVariable("userId") userId: String): UserInvoicesDto
-
-    @GetMapping("/demo4/invoices/{userId}")
-    fun getUserInvoicesDemo4(@PathVariable("userId") userId: String): UserInvoicesDto
 }
