@@ -3,33 +3,3 @@ GET http://localhost:8080/demo1/users
 
 ### demo 1 - get user by id
 GET http://localhost:8080/demo1/users/2
-
-
-### demo 2 - get all users
-GET http://localhost:8080/demo2/users
-
-### demo 2 - get user by id
-GET http://localhost:8080/demo2/users/2
-
-
-### demo 3 - get user by id using HttpURLConnection
-GET http://localhost:8080/demo3/users/2/HttpURLConnection
-
-### demo 3 - get user by id using HttpClient
-GET http://localhost:8080/demo3/users/2/HttpClient
-
-### demo 3 - get user by id using ApacheHttpClient
-GET http://localhost:8080/demo3/users/2/ApacheHttpClient
-
-### demo 3 - get user by id using OkHttp
-GET http://localhost:8080/demo3/users/2/OkHttp
-
-### demo 3 - get user by id using Retrofit
-GET http://localhost:8080/demo3/users/2/Retrofit
-
-### demo 3 - get user by id using Feign
-GET http://localhost:8080/demo3/users/2/Feign
-
-
-### demo 4 - get user by id using Feign
-GET http://localhost:8080/demo4/users/2

@@ -1,5 +1,6 @@
 package pl.mbatyra.api
 
+import io.micrometer.core.annotation.Timed
 import org.springframework.http.MediaType
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
