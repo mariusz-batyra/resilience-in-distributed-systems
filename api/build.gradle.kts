@@ -40,7 +40,7 @@ dependencies {
 
     runtimeOnly("io.micrometer:micrometer-registry-graphite")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testImplementation("com.github.tomakehurst:wiremock:2.27.2")
+    testImplementation("com.github.tomakehurst:wiremock:2.27.2") // here
 }
 
 dependencyManagement {
