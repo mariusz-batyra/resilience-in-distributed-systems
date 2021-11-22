@@ -1,8 +1,5 @@
 package pl.mbatyra.api
 
-import feign.Retryer
-import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
 import org.springframework.http.MediaType
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
@@ -28,10 +25,10 @@ class Demo4Endpoint(
     }
 }
 
-@Configuration
-class FeignClientConfig {
-    @Bean
-    fun retryer(): Retryer {
-        return Retryer.Default(100, 2000, 3)
-    }
-}
+//@Configuration
+//class FeignClientConfig {
+//    @Bean
+//    fun retryer(): Retryer {
+//        return Retryer.Default(100, 2000, 3)
+//    }
+//}
