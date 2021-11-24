@@ -33,3 +33,7 @@ GET http://localhost:8080/demo3/users/2/Feign
 
 ### demo 4 - get user by id using Feign
 GET http://localhost:8080/demo4/users/2
+
+
+### demo resilience4j - get user by id using Feign wrapped with Resilience4j
+GET http://localhost:8080/resilience4j/users/2
